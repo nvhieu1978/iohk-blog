@@ -33,13 +33,13 @@ Bản cập nhật này nhằm cải thiện hoàn toàn thiết kế của Card
 
 Một thành tựu đáng kể của việc triển khai mới này là sự tách biệt của lớp đồng thuận và các quy tắc sổ cái. Việc phân tách này có nghĩa là chúng tôi có thể thay đổi các quy tắc sổ cái mà không cần thực hiện các thay đổi đối với (hoặc có nguy cơ phá vỡ) sự đồng thuận. Sau đó, khi chúng tôi chuyển từ Shelley sang Goguen, chỉ các quy tắc sổ cái sẽ thay đổi. Điều này sẽ cho phép chúng tôi thực hiện triển khai hiệu quả hơn và thêm các tính năng mới thường xuyên hơn. Chúng tôi sẽ xác thực và kiểm tra ít hơn, đồng thời hỗ trợ phát triển hiệu quả hơn.
 
-Some benefits will be immediate, and others will be realized over time. The direct benefits are that IOHK engineers will be able to innovate more easily and make changes to specific components without necessarily impacting others. The new implementation, coupled with the update to Ouroboros BFT, will also lead to significant TPS (transactions per second) performance improvements. For end-users, the benefits of this update will be cumulative, as the Cardano network profits from greater developmental support and system adaptability and portability.
+Một số lợi ích sẽ được nhận ra lập tức, và những lợi ích khác sẽ được nhận ra theo thời gian. Lợi ích trực tiếp là các kỹ sư IOHK sẽ có thể đổi mới dễ dàng hơn và thực hiện các thay đổi đối với các thành phần cụ thể mà không nhất thiết phải tác động đến những người khác. Việc triển khai mới, cùng với bản cập nhật cho Ouroboros BFT, cũng sẽ dẫn đến cải thiện hiệu suất TPS (giao dịch mỗi giây) đáng kể. Đối với người dùng , lợi ích của bản cập nhật này sẽ được tích lũy, vì mạng Cardano thu được lợi ích từ sự hỗ trợ phát triển lớn hơn cũng như khả năng thích ứng và mềm dẻo của hệ thống.
 
 Việc thực hiện mới này là kết quả của rất nhiều giờ làm việc khó khăn. Giờ đây, chúng tôi bắt đầu thấy những lợi ích của việc cam kết với các phương pháp chính thức, cung cấp một mạng lưới không chỉ có thể mở rộng quy mô mà còn ổn định trong khi làm như vậy. Cơ sở mã mới đã được thử nghiệm khá nhiều - và đang diễn ra, và chúng tôi có thể thực hiện một số cải tiến cơ bản mà không lặp lại những thiếu sót của cơ sở mã cũ.
 
 Node Cardano mới cũng có giao diện IPC có thể được sử dụng bởi nhiều thành phần khách hàng, bao gồm ví, trình khám phá, công cụ CLI cũng như các công cụ và API tích hợp tùy chỉnh. Điều này không chỉ về việc chúng tôi có thể phát triển các hệ thống và ứng dụng hoạt động tốt hơn mà những người khác cũng có thể phát triển được.
 
-## **Cardano Explorer Backend and Web API**
+## **Explorer Backend and API Web của Cardano.**
 
 [Explore Backen và API web của Cardano](https://github.com/input-output-hk/cardano-explorer) là điều mới cho [Node Cardano](https://github.com/input-output-hk/cardano-node) . Nó đã được viết lại hoàn toàn so với trình [cardano-sl explore](https://github.com/input-output-hk/cardano-sl-explorer) trước đó. Nó có thiết kế mô-đun mới và bao gồm các thành phần sau: Node Cardano Explorer, cơ sở dữ liệu PostgreSQL và API Web Cardano Explorer.
 
@@ -50,4 +50,4 @@ Node Cardano mới cũng có giao diện IPC có thể được sử dụng bở
 
 Bản phát hành này nhằm chuẩn bị cho Cardano cho những gì sắp tới và chúng tôi đảm bảo có sẵn kiến trúc và bộ máy mạng để mở rộng quy mô, vẫn nhanh và cho phép khả năng tương tác; tương tác và dễ sử dụng cần thiết mà các trường hợp sử dụng trong ngành yêu cầu.
 
-For the latest Cardano updates, visit the [Cardano forum](https://forum.cardano.org/) or follow us on [Twitter](https://twitter.com/Cardano) – and stay tuned for more information on the new wallet backend.
+Để biết các bản cập nhật Cardano mới nhất, hãy truy cập [diễn đàn Cardano](https://forum.cardano.org/) hoặc theo dõi chúng tôi trên [Twitter](https://twitter.com/Cardano) - và theo dõi để biết thêm thông tin về chương trình phụ trợ ví mới. Được dịch bởi Minh Đức
