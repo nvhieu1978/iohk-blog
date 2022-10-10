@@ -17,7 +17,7 @@ Marketing &amp; Communications
 - ![](img/2020-02-20-community-and-stake-pool-reactions-to-the-shelley-incentivized-testnet.007.png)[](https://www.linkedin.com/in/tony-quinn-frsa-0b093229 "LinkedIn")
 - ![](img/2020-02-20-community-and-stake-pool-reactions-to-the-shelley-incentivized-testnet.008.png)[](https://twitter.com/IohkT "Twitter")
 
-![Community and stake pool reactions to the Shelley Incentivized Testnet ](img/2020-02-20-community-and-stake-pool-reactions-to-the-shelley-incentivized-testnet.009.jpeg)
+![Phản ứng của cộng đồng và nhóm cổ phần đối với Testnet được Shelley khuyến khích](img/2020-02-20-community-and-stake-pool-reactions-to-the-shelley-incentivized-testnet.009.jpeg)
 
 The [Incentivized Testnet](https://staking.cardano.org/) (ITN) has been running since mid-December, and the results have produced some fascinating insights into stake pools and a steep learning curve for the blockchain engineers at IOHK, as well as the companies and individuals setting up stake pools, and ada owners. The strategy of using a fast development team writing in the Rust language to act as pathfinders for the heavyweight Haskell developers looks to be paying off. IOHK now has an enormous amount of information about the use â€” and misuse â€” of the protocol to take to the next stage: the Haskell testnet. Alongside that, the Cardano community has shown what it is capable of â€” supporting, experimenting, and providing solid feedback throughout.
 
